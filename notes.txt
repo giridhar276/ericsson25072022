@@ -1,0 +1,218 @@
+
+*** Everything in python is object ***
+*** Every object contains methods ***
+
+
+objects
+---------
+
+number
+---------
+number can be integer or decimal or hexa or octal.
+
+aval = 10
+bval = 3.32
+
+
+string
+----------
+String should be defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """uni shell programming"""
+print(aname)
+print(cname)
+
+
+
+list ( array  in C)
+---------------------
+list contains set of elements.
+Elements can be set of numbers or strings or any combination.
+
+
+alist = [4,0,50,40,30]
+print(alist)
+blist = ["unix","java",34.32,23]
+print(blist)
+
+
+tuple ( unchangeable , immutable )
+----
+tuple contains set of elements.
+**** Elements inside tuple cannot be modified ***
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ()
+
+# list of lists
+empinfo  = [['ram',25,"UK",'1-1-90'],['rita',20,'US','2-2-95'] ]
+
+# list of tuples
+empinfo  = [ ('ram',25,"UK",'1-1-90'),('rita',20,'US','2-2-95') ]
+
+
+
+
+atup = (30,40,"unix",3.32)
+
+
+dictionary  ( hash in perl )( like the json data )
+--------------
+dictionary contains elements in the form of keys and values.  ( items)
+dictionary elements are defined in {}.
+In dictionary
+ keys are generally number or string which is used to uniquely identify the value
+ value can be number or string or list or tuple or dictionrary or list of lists , list of dictionaries or any 
+                                                                                               other structure
+
+syntax:    object =  { key:value , key:value  key:value }
+example:    book  =  {"chap1": 10 ,"chap2":20 , "chap3":30}
+            data  =  { 1:2,3:4,5:6}
+            datainfo  =  { 1:"first",3:["IND","US"],5:1}
+            book  =  {"chap1": [10,"Rita","US"] ,"chap2":[20,"Ram","IND"] }           
+ 
+
+set
+-----
+set is unordered collection of unique values of same type.
+
+aset = {10,20,30,30,30}
+bset = {30,30,30,40,40,40,50}
+
+
+
+
+
+
+
+level1
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+level1
+level1
+
+
+level1
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+else:
+    level2
+    level2
+level1
+level1
+
+
+
+operators
+-------------
+
+
+arithmetic operators :  + - * %  /
+
+
+relational operators :    <     >    <=    >=    ==   !=
+
+1 2        
+1 < 2
+1 < 2
+1 <= 2
+1 >= 2
+1 != 2
+! == 2
+
+logical operators
+----------------
+and
+or
+not
+
+name = "python"
+if len(name) == 6   and  name.islower() :
+    ## do something
+
+
+
+if len(name) == 6   or name.islower() :
+    ## do something
+
+
+assignment operators  ( ++ and -- are NOT allowed in python )
+---------------------
+
+val = 10
+val = val + 1    or val+=1
+val = val * 4    or val*=4
+
+
+
+special operators
+------------------
+
++ : concatenation operator
+
+3 + 3
+"hello" + "python"
+[10,20,30] + [40,50,60]
+[10,20,30] + (40,50,60)   ----> invalid  ( objects should be same type)
+"hello" + 9              ----> invalid  ( objects should be same type)
+
+
+repetition operator
+-------------------
+ *
+
+>>> name = "python"
+>>> name * 4
+'pythonpythonpythonpython'
+
+
+>>> alist = [10,20,30]
+>>> alist * 4
+[10, 20, 30, 10, 20, 30, 10, 20, 30, 10, 20, 30]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
