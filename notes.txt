@@ -193,6 +193,208 @@ repetition operator
 
 
 
+print()
+len()
+range()
+help()
+dir()
+
+str()
+list()
+tuple()
+dict()
+int()
+oct()
+set()
+
+
+max([10,20,30])
+min([10,20,30])
+sum([10,20,30])
+
+type()
+isinstance()
+
+
+file handling
+--------------
+
+.exe
+.doc
+pwb
+tar
+tar.gz
+gz
+zip
+xlsx
+xls
+csv
+log
+.prop
+.properties
+.conf
+.png
+.jpeg
+.gif
+.ini
+.bat
+.txt
+.rtf
+pdf
+docx
+xlsx
+ppt
+pptx
+
+
+c - header file
+----
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<string.h>
+#include<graphics.h>
+#include<math.h>
+
+
+python - packages | libraries
+--------------------------------------
+
+
+
+
+core programming + libraries + core expertise
+
+
+
+
+file handling
+-------------
+
+
+working with flat files ( csv json txt log prop .... )
+-----------------------
+python has the builtin functions like open() to open the flat files
+
+
+
+
+opening the file
+---------------------
+r - read mode
+w - write mode
+a - append mode
+
+
+syntax:     object  = open(filename,mode)
+example:      fr  = open("customers.txt","r")
+              fw  = open("customers.txt","w")
+              case1: If the file is not existing ... file will be created first
+              case2: If the file is already existing.. it overwrites the existing content
+
+              fa  = open("customers.txt","a")
+              case1: If the file is not existing ... file will be created first
+              case2: If the file is already existing.. it appends/adds the data to the existing content
+
+
+
+closing the file
+--------------
+fr.close()
+
+
+
+file read operation
+----------------------
+
+- reading the file using file object
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+exception handling
+--------------------
+
+There are 2 types of errors.
+
+1. syntax error
+2. semantic error or runtime error or logical error
+
+
+handling the errors in the runtime is known as exception handling.
+
+
+try   ( mandate)
+except ( mandate)
+else   ( optional)
+finally( optional)
+raise
+
+
+
+library | package | module 
+----------------------------
+Every library contains some set of methods
+
+
+
+builtin library : builin libraries are those library which are generally used( math operations, file operations, emailing , copy files , ....) by every developer.
+
+
+
+third party library
+-----------------------
+Depending on the requirement(database operations, ML, networking, cloud automation , web automations) developer has to install the third party library from 
+
+- www.pypi.org downloading manually from this portal
+- installing using pip tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+third party files ( xlsx docx pdf  pptx mp4 mpeg ... )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
