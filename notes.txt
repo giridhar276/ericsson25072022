@@ -349,7 +349,278 @@ third party library
 Depending on the requirement(database operations, ML, networking, cloud automation , web automations) developer has to install the third party library from 
 
 - www.pypi.org downloading manually from this portal
-- installing using pip tool
+- installing using pip tool  ( from the internet directly)
+
+
+
+
+
+
+task =   core python( procedural or object oriented ) +  library + understanding documentation + your expertise
+
+
+
+
+definition |function | submodule | subroutine
+----------------------------------------------
+
+- builtin functions     ( in the console ....just type   dir(__builtin__)   )
+
+- user defined functions
+----------------------------
+we define the function for the reusability purpose.
+define the block once and call it for multiple times.
+
+
+passing arguments
+--------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+
+
+
+python installed
+
+database installed
+
+database module
+
+display all existing database
+-------------------------------
+
+show databases ;
+
+
+create your own database
+-------------------------
+create database ericsson;
+
+
+access your database
+-----------------------
+use ericsson ;
+
+
+show tables
+-------------
+show tables ;    ( initially it will be empty)
+
+create table
+--------------
+create table realestate ( street varchar(200) , city varchar(200) ;
+
+
+inserting records
+-------------------
+insert into realestate values('HitechCity','Hyderabad');
+insert into realestate values('MG Road','Pune');
+
+
+display all the records
+--------------------------
+select * from realestate;
+
+
+
+
+step 1:  connected to the database
+step 2:  query
+step 3:  execute the query
+step 4:  fetch the data from table
+step 5:  close the connection
+
+
+
+
+re - regular expression
+---------------------
+
+grep  : global regular expression and pattern
+
+- search for some substring/pattern in the string
+- match  ( at the beginning of the string)
+- sub    ( replacing the string with some other string)
+- findall
+- spilt with some pattern
+
+
+
+metacharacters or wildcard characters  -- these symbols are common across the languages
+-------------------------------------
+^   $    *   +    ?   ()    []    {}    \d  \s   \w
+
+
+^  :   beginning of the string
+       if re.search('^python',line):
+
+
+$ :   ending  with the string
+      if re.search('python$',line):
+
+. :   any single character
+      if re.search(".ython",line):        # python  mython 1ython Mython Rython
+
+
+* :   zero or more occurences of the preceding character
+       if re.search('pyt*hon',line):
+
+
++ :one or more occurences of the preceding character
+       if re.search('pyt+hon',line):
+
+
+? :  either zero or one occurence of the preceding character
+
+
+(pattern1|pattern2) : display lines containing either pattern1 or pattern2
+                      if re.search("python|java",line):
+
+
+
+[]    : character class
+[mqey]: one single character from the given characters
+        if re.search('[pmqu]ython',line):      # python      # mython    # qython   # uython
+
+
+[mqie]ython :   mython or qython  or iython or eython
+[a-z]ython  :
+[a-zA-Z0-9]ython  :
+
+
+
+{min,max} :   min to max occurences of the preceding characters
+              if re.search("pyt{2,6}hon",line)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+procedural programming ( top down approach)
+
+object oriented progrmming ( class object)
+
+
+
+
+
+
+6:20 PM IST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OOP principles     - common for all the languages
+----------------
+
+- escapsulation
+- class and object
+- polymorphism
+- inheritance
+- data abstraction
+
+
+
+procedural programming ( top down programming)
+
+
+object oriented programming ( we are writing everything in the class )
+
+
+class
+-----
+class is something like blueprint of the house
+class contains data members ( variables or attributes) and member functions ( methods )
+
+
+object
+-------
+object is instance of the class.
+
+
+self
+-----
+self in the instance of the object
+
+alist = [10,20,30]
+
+blist = [30,40,50]
+
+alist and blist objects are the instances of the class called List internally
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
